@@ -1,0 +1,19 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authband-master-05634-authRole",
+      "UnauthRoleArn": "arn:aws:iam::203259371023:role/amplify-authband-master-05634-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::203259371023:role/amplify-authband-master-05634-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-authband-master-05634-deployment",
+      "UnauthRoleName": "amplify-authband-master-05634-unauthRole",
+      "StackName": "amplify-authband-master-05634",
+      "StackId": "arn:aws:cloudformation:eu-west-1:203259371023:stack/amplify-authband-master-05634/e34d2fc0-f3b8-11ea-bfc2-0aa5fdd8cb6a"
+    },
+    "categories": {
+      "auth": {
+        "authbanda06c8927": {}
+      }
+    }
+  }
+}
