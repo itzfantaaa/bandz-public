@@ -102,7 +102,7 @@ class SignUp extends React.Component {
   render() {
     if (this.state.stage === 0) {
       return (
-        <AuthForm title="Create a new account" error={this.state.error}>
+        <AuthForm title="Create a new account (for now...)" error={this.state.error}>
           <Email
             handleUpdate={this.handleUpdate}
             email={this.state.email}
@@ -116,13 +116,13 @@ class SignUp extends React.Component {
           <div className="form-group">
             <label htmlFor="exampleInputPhoneNum1">Phone Number</label>
             <NumberFormat
-              placeholder="+1 (###) ###-####"
+              placeholder="+27 (##) ###-####"
               onChange={this.handleUpdate}
               name="phone_number"
               value={this.state.phone_number}
               type="tel"
               className="form-control"
-              format="+1##########"
+              format="+27#########"
               mask="_"
             />
           </div>
