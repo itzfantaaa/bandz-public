@@ -1,5 +1,7 @@
 import React from 'react'
 import { Router } from '@reach/router'
+
+
 import {
   Profile,
   Home,
@@ -14,6 +16,8 @@ import Amplify from 'aws-amplify'
 import config from '../aws-exports'
 
 const App = () => {
+
+
   Amplify.configure(config)
   return (
     <Router>
